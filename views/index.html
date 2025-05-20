@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>API Gestión Textil</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <h1>Bienvenido a la API de Gestión Textil</h1>
+    <p>Esta API permite administrar pedidos y proveedores del sector textil.</p>
+    <p><strong>Nota:</strong> TODAS las rutas requieren autenticación mediante token JWT.</p>
+
+    <hr>
+
+    <section>
+      <h3>🔐 Autenticación</h3>
+      <ul>
+        <li><strong>POST</strong> /api/login → Obtener token de autenticación</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>🧵 Productos</h3>
+      <ul>
+        <li><strong>GET</strong> /api/productos → Listar todos los productos</li>
+        <li><strong>GET</strong> /api/productos/:id → Obtener un producto específico</li>
+        <li><strong>POST</strong> /api/productos → Crear un nuevo producto</li>
+        <li><strong>PUT</strong> /api/productos/:id → Actualizar un producto</li>
+        <li><strong>DELETE</strong> /api/productos/:id → Eliminar un producto</li>
+      </ul>
+    </section>
+    
+    
+    <section>
+      <h3>🏭 Proveedores</h3>
+      <ul>
+        <li><strong>GET</strong> /api/proveedores → Listar todos los proveedores</li>
+        <li><strong>GET</strong> /api/proveedores/:id → Obtener un proveedor específico</li>
+        <li><strong>POST</strong> /api/proveedores → Crear un nuevo proveedor</li>
+        <li><strong>PUT</strong> /api/proveedores/:id → Actualizar un proveedor</li>
+        <li><strong>DELETE</strong> /api/proveedores/:id → Eliminar un proveedor</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h3>📦 Pedidos</h3>
+      <ul>
+        <li><strong>GET</strong> /api/pedidos → Listar todos los pedidos</li>
+        <li><strong>GET</strong> /api/pedidos/:id → Obtener un pedido específico</li>
+        <li><strong>POST</strong> /api/pedidos → Crear un nuevo pedido</li>
+        <li><strong>PUT</strong> /api/pedidos/:id → Actualizar un pedido</li>
+        <li><strong>DELETE</strong> /api/pedidos/:id → Eliminar un pedido</li>
+      </ul>
+    </section>
+
+
+
+    <hr>
+
+    <footer>
+      <p><strong>Nombre:</strong> Falcón Estefanía - Paré Elizabeth</p>
+      <p><strong>Materia:</strong> Aplicaciones Híbridas</p>
+      <p><strong>Docente:</strong> Camila Marcos Galbán</p>
+      <p><strong>Comisión:</strong> DWN4AP</p>
+    </footer>
+  </body>
+</html>
